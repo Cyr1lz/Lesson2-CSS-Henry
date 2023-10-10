@@ -17,5 +17,13 @@
 
 */
 body {
-	color: grey;
+	color: black;
+}
+.wrapper {
+	padding: 20px;
+	font-size: 16px;
+}
+.title {
+	color: brown;
+	font-size: 1.5;
 }
