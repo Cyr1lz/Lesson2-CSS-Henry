@@ -16,14 +16,69 @@
 6.0.2 - ID Attribute (#)
 
 */
+html * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	color: black;
+	padding: 20px;
 }
 .wrapper {
-	padding: 20px;
-	font-size: 16px;
+	font-size: max(1.5);
 }
 .title {
 	color: brown;
 	font-size: 1.5;
+}
+a {
+	display: inline-block;
+	padding: 8px 40px;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 0 50px; 
+	color: white;
+	text-decoration: none;
+}
+a:visited, a:focus, a:hover {
+	background-color: greenyellow;
+	color: burlywood;
+}
+input {
+	outline-color: transparent;
+}
+input:focus {
+	outline-color: rgba(116, 59, 59, 0.562);
+}
+p:nth-child(even) {
+	background-color: brown;
+	color: white;
+}
+.lost {
+	border: 1px solid brown;
+	padding: 2px;
+	background-color: white;
+	color: black;
+	margin-bottom: 25px;
+}
+.name {
+	color: rgb(165, 106, 106);
+}
+.side {
+	color: brown;
+}
+.button {
+	padding: 8px 40px;
+	margin: 4px 20px;
+	border-color: transparent;
+	border: 1px solid rgba(179, 13, 13, 0.89);
+	color: burlywood;
+	padding: 10px;
+	border-radius: 50px;
+    cursor: pointer;
+}
+.button:hover {
+	color: burlywood;
+	background-color: rgba(92, 9, 9, 0.87);
 }
